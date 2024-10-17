@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+body main .header {
+  position: relative;
+  background-image: url("../img/comingSoon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1200px) {
+  body main .header {
+    background-size: contain;
+  }
+}/*# sourceMappingURL=style.css.map */

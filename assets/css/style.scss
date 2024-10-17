@@ -1,0 +1,24 @@
+@mixin screen1200 {
+    @media (max-width: 1200px) {
+        @content
+    }
+}
+
+body {
+    margin: 0;
+
+    main {
+
+        .header {
+            position: relative;
+            background-image: url("../img/comingSoon.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            @include screen1200() {
+                background-size: contain;
+            }
+        }
+    }
+}
